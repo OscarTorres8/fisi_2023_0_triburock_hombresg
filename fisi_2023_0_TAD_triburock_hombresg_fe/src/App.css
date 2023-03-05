@@ -1,0 +1,18 @@
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@600&display=swap');
+
+html {
+    color: white;
+    font-family: "Poppins", serif;
+    background-color: black;
+}
+
+#root{
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+}
