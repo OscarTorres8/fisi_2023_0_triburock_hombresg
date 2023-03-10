@@ -1,0 +1,17 @@
+#login #article {
+    padding: 20px;
+    margin: 20px 0 20px 20px;
+}
+
+#login #article .back {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#login #article h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+}

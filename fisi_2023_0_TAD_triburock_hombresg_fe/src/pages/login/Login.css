@@ -1,0 +1,35 @@
+#login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100dvh;
+    gap: 20px;
+}
+
+#login::before {
+    content: "";
+    background: url("../../assets/pawel-czerwinski-5QnkRk4-zcY-unsplash.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.25;
+}
+
+
+#login > #article, #login > #aside {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: min-content;
+    gap: 20px;
+    z-index: 1;
+}
+
+#login #aside {
+    margin: 20px 20px 20px 0;
+    background-image: url("../../assets/aside.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
