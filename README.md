@@ -1,5 +1,5 @@
 # fisi_2023_0_triburock_hombresg
-# Integrantes del squad DaddyYankee
+# Integrantes del squad Hombres G
 * Charlie Elizarbe Camus - charlie.elizarbe@unmsm.edu.pe
 * Oskar Cangahuala Garcia - oskar.cangahuala@unmsm.edu.pe 
 * Oscar Torres Venegas - oscargrimaldo.torres@unmsm.edu.pe 
