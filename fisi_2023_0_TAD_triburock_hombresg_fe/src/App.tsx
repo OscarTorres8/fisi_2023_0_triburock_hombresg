@@ -8,6 +8,9 @@ import Clients from "./pages/clients/Clients";
 import Trainers from "./pages/trainers/Trainers";
 import Incomes from "./pages/incomes/Incomes";
 import Plans from "./pages/plans/Plans";
+import Home from "./pages/landing-page/home/Home";
+import Pricing from "./pages/landing-page/princing/Pricing";
+import ContactUs from "./pages/landing-page/contact-us/ContactUs";
 
 export type UserAuth = {
     email: string,
@@ -27,7 +30,9 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<h1>Home</h1>}></Route>
+                <Route path='/' element={<Home/>}></Route>
+                <Route path='/pricing' element={<Pricing/>}></Route>
+                <Route path='/contact-us' element={<ContactUs/>}></Route>
                 <Route path='/login' element={<Login user={user} setUser={setUser}/>}></Route>
                 <Route element={<ProtectedRoutes logged={user.logged} redirectTo={'/login'}/>}>
                     <Route path='/dashboard' element={<Dashboard name={user.email} onLogout={onLogout}/>}/>

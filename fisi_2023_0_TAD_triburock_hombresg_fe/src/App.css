@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 :root {
+    --primary: #FFD24C;
     --secondary: #474EFF;
     --secondary-transparent-10: hsla(238, 100%, 64%, 0.1);
     --secondary-transparent-20: hsla(238, 100%, 64%, 0.2);

@@ -1,5 +1,5 @@
 import "../../layout/Horizontal.css"
-import VerticalNavBar from "../../components/shared/navigation/VerticalNavBar";
+import VerticalNavBar from "../../components/shared/navigation/admin/VerticalNavBar";
 import {links} from "../../common/AdminLink";
 import ClientContent from "../../components/clients/ClientContent";
 import {useEffect, useState} from "react";

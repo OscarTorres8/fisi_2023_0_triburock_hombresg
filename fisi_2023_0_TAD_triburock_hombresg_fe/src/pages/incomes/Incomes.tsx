@@ -1,15 +1,15 @@
 import "../../layout/Horizontal.css"
-import VerticalNavBar from "../../components/shared/navigation/VerticalNavBar";
+import VerticalNavBar from "../../components/shared/navigation/admin/VerticalNavBar";
 import {links} from "../../common/AdminLink";
 import {useEffect, useState} from "react";
 import tableColumns from "./tableColumns";
 import IncomesContent from "../../components/incomes/IncomesContent";
-import IncomeResponse from "../../fetching/get/res/IncomeResponse";
-import fetchIncomesApi from "../../fetching/get/actions/fetchIncomesApi";
 import PlanResponse from "../../fetching/get/res/PlanResponse";
 import fetchPlansApi from "../../fetching/get/actions/fetchPlansApi";
 import ClientResponse from "../../fetching/get/res/ClientResponse";
 import fetchClientsApi from "../../fetching/get/actions/fetchClientsApi";
+import fetchIncomesAndPlanApi from "../../fetching/get/actions/fetchIncomesAndPlanApi";
+import {ParedIncomeAndPlanResponse} from "../../fetching/get/res/IncomeAndPlanResponse";
 
 type Props = {
     name: string,
@@ -17,15 +17,15 @@ type Props = {
 }
 
 export default function Incomes({name, onLogout}: Props) {
-    const [records, setRecords] = useState<Array<IncomeResponse>>([])
+    const [incomes, setIncomes] = useState<Array<ParedIncomeAndPlanResponse>>([])
     const [plans, setPlans] = useState<Array<PlanResponse>>([])
     const [clients, setClients] = useState<Array<ClientResponse>>([])
     const [loading, setLoading] = useState(false)
 
     useEffect(() => {
             setLoading(true)
-            fetchIncomesApi().then((res) => {
-                setRecords(res)
+            fetchIncomesAndPlanApi().then((res) => {
+                setIncomes(res)
             }).then(() => fetchClientsApi())
                 .then((res) => setClients(res))
                 .then(() => fetchPlansApi())
@@ -40,7 +40,7 @@ export default function Incomes({name, onLogout}: Props) {
             <IncomesContent
                 table={{
                     columns: tableColumns,
-                    records: records
+                    records: incomes
                 }}
                 loading={loading}
                 plans={plans}
