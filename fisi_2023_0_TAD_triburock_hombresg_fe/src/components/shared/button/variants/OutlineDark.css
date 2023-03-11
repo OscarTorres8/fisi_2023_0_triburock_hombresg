@@ -1,0 +1,21 @@
+.button.outline.dark, .icon.button.outline.dark {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    transition: all 1s ease;
+}
+
+.button.outline.dark:enabled:hover, .icon.button.outline.dark:enabled:hover {
+    background-color: black;
+    color: white;
+}
+
+.button.outline.dark:disabled, .icon.button.outline.dark:disabled {
+    border: 1px solid var(--gray-65);
+    color: var(--gray-65);
+}
+
+.icon.button.outline.dark {
+    padding: 10px;
+}

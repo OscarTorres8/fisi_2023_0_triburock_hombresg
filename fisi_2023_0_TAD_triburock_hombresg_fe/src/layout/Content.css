@@ -1,0 +1,24 @@
+#layout.horizontal > #content {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: min-content;
+    gap: 40px;
+
+    margin: 20px 20px 20px 0    ;
+    padding: 20px 40px;
+
+    /* Background/Blur */
+
+    background-color: var(--transparent-white-02);
+    /* Gray/65 */
+
+    border: 1px solid var(--gray-65);
+    /* Blur */
+
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+
+    z-index: 1;
+}

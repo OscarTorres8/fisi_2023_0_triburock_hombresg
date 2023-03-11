@@ -1,0 +1,49 @@
+#records {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: min-content;
+    gap: 20px;
+}
+
+#records #options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#records table {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: var(--transparent-white-02);
+    backdrop-filter: blur(12px);
+}
+
+#records table thead {
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+#records table thead tr, #records table tbody tr {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+#records table tbody tr:hover {
+    background-color: var(--transparent-white-10);
+    backdrop-filter: blur(12px);
+}
+
+#records table thead tr th, #records table tbody tr td {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 20px;
+}
+

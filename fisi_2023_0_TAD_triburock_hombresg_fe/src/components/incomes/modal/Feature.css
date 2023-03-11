@@ -1,0 +1,33 @@
+#form #plans .plan .feature {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 20px;
+
+    width: 100%;
+    height: fit-content;
+
+    border-radius: 8px;
+    color: black;
+}
+
+#form #plans .plan .feature.highlighted{
+    background: rgba(116, 105, 246, 0.1);
+}
+
+#form #plans .plan .feature .icon.highlighted{
+    color: var(--secondary);
+}
+
+#form #plans .plan .feature .name {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
