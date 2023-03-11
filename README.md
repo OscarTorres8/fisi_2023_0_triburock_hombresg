@@ -5,7 +5,7 @@
 * Oscar Torres Venegas - oscargrimaldo.torres@unmsm.edu.pe 
 * Joseph Hurtado Julcarima -joseph.hurtado@unmsm.edu.pe
 * Isaias Trujillo Rivera - isaias.trujillo@unmsm.edu.pe 
-* Nahomi Elizabeth Sanchez Cordova - @unmsm.edu.pe
+* Nahomi Elizabeth Sanchez Cordova - nahomi.sanchez@unmsm.edu.pe
 
 # Sistema Operativo
 * ApiAuthGo: Linux
@@ -22,6 +22,6 @@
 
 # Elementos del Repositorio
 
-* [**fisi_2022_2_tribureggaeton_daddyyankee_be**](/fisi_2022_2_tribureggaeton_daddyyankee_be): En esta carpeta se incluira el codigo relacionado al Back-End de la aplicación.
-* [**fisi_2022_2_tribureggaeton_daddyyankee_fe**](/fisi_2022_2_tribureggaeton_daddyyankee_fe): En esta carpeta se incluira el codigo relacionado al Front-End de la aplicación.
-* [**fisi_2022_2_tribureggaeton_daddyyankee_infra**](/fisi_2022_2_tribureggaeton_daddyyankee_infra): En esta carpeta se incluira los elementos relacionados a la infraestructura de la aplicación.
+* [**fisi_2023_0_triburock_hombresg_be**](/fisi_2022_2_tribureggaeton_daddyyankee_be): En esta carpeta se incluira el codigo relacionado al Back-End de la aplicación.
+* [**fisi_2023_0_triburock_hombresg_fe**](/fisi_2022_2_tribureggaeton_daddyyankee_fe): En esta carpeta se incluira el codigo relacionado al Front-End de la aplicación.
+* [**isi_2023_0_triburock_hombresg_infra**](/fisi_2022_2_tribureggaeton_daddyyankee_infra): En esta carpeta se incluira los elementos relacionados a la infraestructura de la aplicación.
