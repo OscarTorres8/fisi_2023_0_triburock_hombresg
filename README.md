@@ -19,6 +19,8 @@
 * Crypto-js 4.1.1 
 * Express 4.18.2
 * Mysql2 3.1.2 
+* React v18
+* Typescript v4.9 
 
 # Elementos del Repositorio
 
