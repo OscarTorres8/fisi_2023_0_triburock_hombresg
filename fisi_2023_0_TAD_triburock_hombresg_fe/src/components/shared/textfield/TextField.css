@@ -1,0 +1,43 @@
+.text-field {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-field > span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.text-field div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+.text-field div input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    background-color: transparent;
+}
+
+.text-field div input:focus{
+    outline: none;
+}
+
+.text-field div input::placeholder{
+    color: var(--gray-65)
+}
+

@@ -1,0 +1,59 @@
+#form #plans .plan {
+    display: flex;
+    flex-direction: column !important;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 80px;
+    gap: 20px;
+
+    width: fit-content;
+    height: fit-content;
+
+    background: rgba(71, 78, 255, 0.05);
+    /* Blur */
+
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+}
+
+#form #plans .plan .title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: black;
+}
+
+#form #plans .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#form #plans .price .value, .price .period {
+    display: flex;
+
+    width: fit-content;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+
+    color: black;
+}
+
+#form #plans .price .value {
+    font-size: 48px;
+    line-height: 72px;
+}
+
+#form #plans .price .period {
+    font-size: 16px;
+    line-height: 24px;
+}

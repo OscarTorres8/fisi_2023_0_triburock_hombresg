@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+:root {
+    --secondary: #474EFF;
+    --secondary-transparent-10: hsla(238, 100%, 64%, 0.1);
+    --secondary-transparent-20: hsla(238, 100%, 64%, 0.2);
+
+    --transparent-white-02: rgba(255, 255, 255, 0.02);
+    --transparent-white-05: rgba(255, 255, 255, 0.05);
+    --transparent-white-10: rgba(255, 255, 255, 0.1);
+    --transparent-white-20: rgba(255, 255, 255, 0.2);
+    --gray-65: #A6A6A6;
+
+    --bg-test-purple-50: rgba(92, 123, 243, 0.5);
+    --bg-test-purple-20: rgba(92, 123, 243, 0.2);
+    --bg-test-purple-10: rgba(92, 123, 243, 0.1);
+    --bg-test-purble-5: rgba(92, 123, 243, 0.05);
+
+    --bg-test-green-50: rgba(92, 243, 185, 0.5);
+    --bg-test-green-20: rgba(92, 243, 185, 0.2);
+    --bg-test-green-10: rgba(92, 243, 185, 0.1);
+    --bg-test-green-5: rgba(92, 243, 185, 0.05)
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    width: fit-content;
+    padding: 5px 15px;
+}
+
+#root {
+    font-family: 'Quicksand', sans-serif;
+    height: 100dvh;
+    background-color: black;
+    color: white;
+}
