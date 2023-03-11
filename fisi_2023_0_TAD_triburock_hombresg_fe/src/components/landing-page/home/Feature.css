@@ -1,0 +1,53 @@
+#feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    gap: 20px;
+}
+
+#feature span {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* White */
+
+    color: white;
+}
+
+#feature div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 72px;
+    height: 72px;
+
+    background: var(--transparent-white-10);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+}
+
+#feature div img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+}
+
+#feature div .cardiology {
+    content: url("../../../assets/cardiology_FILL0_wght400_GRAD0_opsz48.svg");
+}
+
+#feature div .near_me {
+    content: url("../../../assets/near_me_FILL0_wght400_GRAD0_opsz48.svg");
+}
+
+#feature div .trending_up {
+    content: url("../../../assets/trending_up_FILL0_wght400_GRAD0_opsz48.svg");
+}

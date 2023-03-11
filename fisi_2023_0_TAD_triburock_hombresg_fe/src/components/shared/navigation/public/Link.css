@@ -1,0 +1,12 @@
+#nav-bar.horizontal #menu .link {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--gray-65);
+}
+
+#nav-bar.horizontal #menu .link.active {
+    color: white;
+}

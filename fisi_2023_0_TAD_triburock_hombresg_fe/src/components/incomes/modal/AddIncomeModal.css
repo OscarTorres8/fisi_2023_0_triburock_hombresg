@@ -18,3 +18,9 @@
     height: 572px;
     overflow-x: scroll;
 }
+
+#form #results {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+}

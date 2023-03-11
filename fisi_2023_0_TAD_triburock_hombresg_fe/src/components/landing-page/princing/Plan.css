@@ -1,0 +1,67 @@
+.pricing-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    gap: 20px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, hsla(0, 0%, 100%, 1), hsla(0, 0%, 0%, 0)) 1;
+    border-radius: 12px !important;
+
+    background: rgba(255, 255, 255, 0.02);
+
+    backdrop-filter: blur(12px);
+;
+}
+
+.pricing-plan.full {
+    border: 1px solid white;
+
+    border-radius: 12px;
+}
+
+.pricing-plan > .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.pricing-plan .title span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: white;
+}
+
+.pricing-plan .title > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-plan .title span > div > .price, .pricing-plan .title span > div > .duration {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.pricing-plan .title div > .price {
+    font-size: 48px;
+    line-height: 72px;
+    color: white;
+}
+
+.pricing-plan .title div > .duration {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray-65);
+}

@@ -3,5 +3,9 @@ import UserResponse from "../res/UserResponse";
 
 
 export default async function fetchUsersApi() {
-    return fetchApi<UserResponse>({url: "http://localhost:3030/api/usuarios"})
+    const url = {
+        "external": "https://apim-titaniumgym-prod-001.azure-api.net/rs-ne-gestion-de-personas/servicio-de-usuarios/v1/usuarios",
+        "local": "http://localhost:3030/api/usuarios"
+    }
+    return fetchApi<UserResponse>({url: url.local})
 }

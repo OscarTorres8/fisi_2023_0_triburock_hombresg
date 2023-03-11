@@ -1,0 +1,11 @@
+#layout.vertical.pricing > #landing-plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
+    gap: 40px;
+    backdrop-filter: blur(12px);
+
+    border-radius: 12px;
+}

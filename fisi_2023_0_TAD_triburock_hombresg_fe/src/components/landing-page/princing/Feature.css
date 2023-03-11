@@ -1,0 +1,39 @@
+.pricing-plan > .feature {
+    display: flex;
+    flex-direction: row;
+
+
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 20px;
+
+    color: var(--gray-65);
+    border-radius: 8px;
+}
+
+.pricing-plan > .feature.primary{
+    color: white;
+    background: rgba(242, 204, 13, 0.1);
+}
+
+
+.pricing-plan > .feature.secondary{
+    color: white;
+    background: rgba(116, 105, 246, 0.1);
+}
+
+.pricing-plan > .feature img{
+    content: url("./../../../assets/done-icon/done-white.svg");
+    width: 16px;
+    height: 16px;
+}
+
+.pricing-plan > .feature.primary img{
+    content: url("./../../../assets/done-icon/done-gold.svg");
+}
+
+.pricing-plan > .feature.secondary img{
+    content: url("./../../../assets/done-icon/done-purple.svg");
+}
+
